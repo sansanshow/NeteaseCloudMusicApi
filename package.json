@@ -8,6 +8,7 @@
     "lint": "eslint \"**/*.{js,ts}\"",
     "lint-fix": "eslint --fix \"**/*.{js,ts}\"",
     "prepare": "husky install",
+    "pm2": "pm2 start processes.json",
     "pkgwin": "pkg . -t node14-win-x64 -o app",
     "pkglinux": "pkg . -t node14-linux-x64 -o app",
     "pkgmacos": "pkg . -t node14-macos-x64 -o app"
