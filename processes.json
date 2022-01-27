@@ -2,7 +2,7 @@
   "apps": [
     {
       "name": "MusicApiService",
-      "cwd": "/srv/node-app/current",
+      "cwd": "/opt/app/netease-cloud-music/NeteaseCloudMusicApi",
       "script": "bin/www",
       "log_date_format": "YYYY-MM-DD HH:mm Z",
       "error_file": "/var/log/node-app/node-app.stderr.log",
